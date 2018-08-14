@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wingtech/wt88047/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
