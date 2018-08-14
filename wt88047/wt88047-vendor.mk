@@ -275,8 +275,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so
 
 PRODUCT_PACKAGES += \
-    ims-signed \
-    imssettings \
+    ims \
     imscmlibrary \
     libloc_api_v02 \
     libloc_ds_api \
