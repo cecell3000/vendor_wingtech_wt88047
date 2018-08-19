@@ -5,5 +5,5 @@
 -->
 <permissions>
  <library name="com.qti.ims.connectionmanager.imscmlibrary"
-          file="/vendor/framework/imscmlibrary.jar"/>
+          file="/system/vendor/framework/imscmlibrary.jar"/>
 </permissions>
