@@ -264,7 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    ims \
+    ims-signed \
     imscmlibrary \
     libloc_api_v02 \
     libloc_ds_api \
