@@ -265,6 +265,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ims-signed \
+    imssettings \
     imscmlibrary \
     libloc_api_v02 \
     libloc_ds_api \
