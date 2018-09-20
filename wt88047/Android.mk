@@ -20,9 +20,9 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),wt88047)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ims
+LOCAL_MODULE := ims-signed
 LOCAL_MODULE_OWNER := wingtech
-LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims-signed.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -149,17 +149,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := wingtech
 LOCAL_SRC_FILES := proprietary/vendor/framework/qcrilhook.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := rcsimssettings
-LOCAL_MODULE_OWNER := wingtech
-LOCAL_SRC_FILES := proprietary/vendor/framework/rcsimssettings.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
